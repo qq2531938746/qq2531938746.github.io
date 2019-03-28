@@ -1,0 +1,134 @@
+body,ul,li,input,button,div{
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+}
+a{
+    text-decoration: none;
+    color: #ccc;
+}
+ul{
+    list-style: none;
+}
+img{
+    border: none;
+    vertical-align: top;
+}
+input,button{
+    border: none;
+    outline: none;
+}
+.header_nav{
+    max-width: 100%;
+    background-color: #000;
+    height: 65px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    min-width: 1200px;
+    margin: 0 auto;
+}
+.logo{
+    position: absolute;
+    left: 40px;
+    top: 17px;
+    height: 30px;
+}
+.logo img{
+    height: 30px;
+}
+.task_menu{
+    position: absolute;
+    width: 80px;
+    height: 42px;
+    top: 23px;
+    left: 50px;
+    right: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.task_menu:hover::after{
+    content: "";
+    display: block;
+    height: 4px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #3cc8b4;
+    animation: under_line 1s;
+    animation-fill-mode: forwards;
+}
+.task_menu img{
+    vertical-align: -1px;
+}
+.header_right{
+    position: absolute;
+    height: 42px;
+    top: 23px;
+    right: 23px;
+}
+.header_right>ul{
+    display: flex;
+    width: 309px;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_right>ul>li:nth-child(1),
+.header_right>ul>li:nth-child(2){
+    position: relative;
+}
+.header_right>ul>li:nth-child(1):hover::after{
+    content: "";
+    display: block;
+    height: 4px;
+    position: absolute;
+    left: 0;
+    bottom: -18px;
+    background-color: #3cc8b4;
+    animation: under_line2 1s;
+    animation-fill-mode: forwards;
+}
+.header_right>ul>li:nth-child(2):hover::after{
+    content: "";
+    display: block;
+    height: 4px;
+    position: absolute;
+    left: 0;
+    bottom: -18px;
+    background-color: #3cc8b4;
+    animation: under_line3 1s;
+    animation-fill-mode: forwards;
+}
+.register{
+    width: 84px;
+    height: 28px;
+    background-color: #4d5775;
+    text-align: center;
+    line-height: 28px;
+    color: #fff;
+    border-radius: 3px;
+}
+@keyframes under_line{
+    from{
+        width: 0px;
+    }
+    to{
+        width: 100%;
+    }
+}
+@keyframes under_line2{
+    from{
+        width: 0px;
+    }
+    to{
+        width: 60px;
+    }
+}
+@keyframes under_line3{
+    from{
+        width: 0px;
+    }
+    to{
+        width: 30px;
+    }
+}
