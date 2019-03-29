@@ -1,0 +1,317 @@
+html,body,ul,li,a,p,img,input,a,h1,h2,h3,h4,h5,h6,button{
+	padding: 0;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+	outline: none;
+}
+/*栗艳宁导航css部分*/
+body,ul,li,input,button,div{
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+}
+
+a{
+    text-decoration: none;
+    color: #ccc;
+}
+ul{
+    list-style: none;
+}
+img{
+    border: none;
+    vertical-align: top;
+}
+input,button{
+    border: none;
+    outline: none;
+}
+.header_nav{
+    max-width: 100%;
+    background-color: #000;
+    height: 65px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    min-width: 1200px;
+    margin: 0 auto;
+    z-index: 1;
+}
+.logo{
+    position: absolute;
+    left: 40px;
+    top: 17px;
+    height: 30px;
+}
+.logo img{
+    height: 30px;
+}
+.task_menu{
+    position: absolute;
+    width: 80px;
+    height: 42px;
+    top: 23px;
+    left: 50px;
+    right: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+    color: #fff;
+}
+.task_menu>a{
+	color: #fff;
+}
+.task_menu:hover::after{
+    content: "";
+    display: block;
+    height: 4px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #3cc8b4;
+    animation: under_line 1s;
+    animation-fill-mode: forwards;
+}
+.task_menu img{
+    vertical-align: -1px;
+}
+.header_right{
+    position: absolute;
+    height: 42px;
+    top: 23px;
+    right: 23px;
+}
+.header_right a{
+	color: #fff;
+}
+.header_right>ul{
+    display: flex;
+    width: 309px;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_right>ul>li:nth-child(1),
+.header_right>ul>li:nth-child(2){
+    position: relative;
+}
+.header_right>ul>li:nth-child(1):hover::after{
+    content: "";
+    display: block;
+    height: 4px;
+    position: absolute;
+    left: 0;
+    bottom: -18px;
+    background-color: #3cc8b4;
+    animation: under_line2 1s;
+    animation-fill-mode: forwards;
+}
+.header_right>ul>li:nth-child(2):hover::after{
+    content: "";
+    display: block;
+    height: 4px;
+    position: absolute;
+    left: 0;
+    bottom: -18px;
+    background-color: #3cc8b4;
+    animation: under_line3 1s;
+    animation-fill-mode: forwards;
+}
+.register{
+    width: 84px;
+    height: 28px;
+    background-color: #4d5775;
+    text-align: center;
+    line-height: 28px;
+    color: #fff;
+    border-radius: 3px;
+}
+@keyframes under_line{
+    from{
+        width: 0px;
+    }
+    to{
+        width: 100%;
+    }
+}
+@keyframes under_line2{
+    from{
+        width: 0px;
+    }
+    to{
+        width: 60px;
+    }
+}
+@keyframes under_line3{
+    from{
+        width: 0px;
+    }
+    to{
+        width: 30px;
+    }
+}
+
+/*栗艳宁导航css部分*/
+/*头部背景图及其内容*/
+.header{
+	width: 100%;
+	height: 300px;
+	/*background的三个属性，先引入图片，平铺不平铺，给图片定位*/
+	background: url(../images/banner.jpg) no-repeat center top;
+	/*z-index: -1;*/
+	/*图片的尺寸，cover表示使背景图片扩展到足够大，完全覆盖 (背景) 区域
+	contain 表示扩展到足够大，使其宽度和高度完全适应 (内容) 区域*/
+	background-size: cover;
+	position: relative;
+}
+
+/****注意事项，定位的时候要给绝对定位的盒子外面套个盒子，这样的话页面不会炸*/
+
+.position-box{
+	position: absolute;
+	top: 65px;
+	left: 50%;
+	width: 1000px;
+	/*background-color: green;*/
+	transform: translateX(-50%);
+	/*margin: 0 auto;
+	box-sizing: border-box;*/
+
+}
+.header-main{
+	width: 400px;
+	height: 300px;
+	box-sizing: border-box;
+	padding: 15px 30px;
+}
+.become,.income{
+	font-size: 24px;
+	color: #fff;
+	padding: 11px 0;
+
+}
+.become-number{
+	color: #41C4B4;
+}
+.button-go{
+	width: 120px;
+	height: 40px;
+	cursor: pointer;
+	text-align: center;
+	line-height: 40px;
+	color: #fff;
+	background-color: #3CC8B4;
+	border: none;
+	border-radius: 2px;
+	margin: 30px 0;
+	text-decoration: none;
+}
+.button-go:hover{
+	background-color: #36a697;
+}
+
+/*文本当中的小标题*/
+.contitle{
+	width: 365px;
+	/*height: 36px;*/
+	background-color: #333;
+	margin: 35px auto;
+	color: #fff;
+	border-radius: 5px;
+	text-align: center;
+}
+.contitle span{
+	display: inline-block;
+	padding: 8px 0;
+}
+
+/*六个相同的样式*/
+
+.alikeall{
+	width: 1000px;
+	margin: 0 auto;
+}
+.alikebox{
+	width: 100%;
+	height: 60px;
+	border: 1px solid #999;
+	border-radius: 4px;
+	margin-bottom: 20px;
+	display: flex;
+}
+.breakbox{
+	background-color: #333;
+	width: 160px;
+	height: auto;
+	text-align: center;
+	color: #fff;
+
+}
+.alikeword{
+	line-height: 60px;
+}
+.alikeword span{
+	letter-spacing: 3px;
+	margin: 0 6px;
+	font-size: 16px;
+}
+.alikeword img{
+    vertical-align: middle;
+    line-height: 60px;
+}
+.whitebox{
+	text-align: center;
+
+}
+.whitebox a{
+    font-size: 15px;
+    color: #3cc8b4;
+}
+.whitebox span{
+	color: #727d9c;
+	font-size: 15px;
+	line-height: 60px;
+	margin: 0 30px;
+}
+
+/*底部的部分*/
+
+.footer{
+	width: 100%;
+	height: 75px;
+	margin-top: 50px;
+	background-color: #000;
+}
+.innfooter{
+	width: 1000px;
+	height: auto;
+	margin: 0 auto;
+	color: #fff;
+	line-height: 75px;
+	overflow: hidden;
+	color: #6c6c6c;
+	font-size: 14px;
+}
+a{
+	color: #6c6c6c;
+}
+.onea:hover{
+	color: #999;
+}
+
+.footer-left{
+	
+	float: left;
+}
+.hide{
+	color: #000;
+}
+.hide:hover{
+	color: #555;
+}
+.footer-right{
+	float: right;
+}
+.footer-right img{
+    vertical-align: middle;
+}

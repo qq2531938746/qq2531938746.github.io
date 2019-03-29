@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_1033159_59oze3aya1m.css">
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_1033159_fyn5ekf601h.css">
+    <title>我的订单</title>
+    <script>
+        (function (doc, win) {
+            var docEl = doc.documentElement,
+                resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+                recalc = function () {
+                    var clientWidth = docEl.clientWidth;
+                    if (!clientWidth) return;
+                    var n;
+                    if (perseInt(32 * (clientWidth / 640)) <= 10) {
+                        n = 10;
+                    } else if (parseInt(32 * (clientWidth / 640)) > 32) {
+                        n = 32;
+                    } else {
+                        n = parseInt(32 * (clientWidth / 640))
+                    }
+                    docEl.style.fontSize = n + 'px';
+                    console.log(n);
+                };
+            if (!doc.addEventListener) return;
+            win.addEventListener(resizeEvt, recalc, false);
+            doc.addEventListener('DOMContentLoaded', recalc, false);
+        })(document, window);
+    </script>
+    <link rel="stylesheet" href="./css/wddd.css">
+    <link rel="stylesheet" href="./css/home.css">
+</head>
+
+<body>
+    <div class="content">
+        <!-- 导航 -->
+        <div class="header_nav">
+            <div class="logo"><a href="home.html"><img src="./img/index_logo_1.png"></a></div>
+            <div class="task_menu">
+                <a href="order.html"><img src="https://www.kxhtml.com/console/images/icon_add.svg" alt=""> 我要下单</a>
+            </div>
+            <div class="header_right">
+                <ul>                
+                    <li><a href="makemoney.html">赚钱神器</a></li>
+                    <li><a href="#">注册</a></li>
+                    <li class="register"><a href="enter.html">登录</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- 图片块 -->
+        <div class="banner">
+            <div class="banner-relative">
+                <div class="banner-absolute">
+                    <h1>上传设计稿，交付您代码</h1>
+                    <span>下单</span>
+                    <img src="./img/dot2.png" alt="">
+                    <span>&lt;24小时交付</span>
+                    <img src="./img/dot2.png" alt="">
+                    <span>3天质保</span>
+                </div>
+                <ul class="fiexd">
+                    <li><span id="xd" class="active">下单</span></li>
+                    <li><span class="jf">交付</span></li>
+                    <li><span class="jg">价格</span></li>
+                </ul>
+            </div>
+        </div>
+        <!-- 白块部分 -->
+        <div class="lump result">
+            <div class="box">
+                <p>设计稿类型:<i class="iconfont icon-wenhao"></i></p>
+                <ul class="list2">
+                    <li><img src="./img/PS.png" alt="" class="ps"></li>
+                    <li><img src="./img/Sketch.png" alt="" class="sketch"></li>
+                    <li><img src="./img/jpgpng.png" alt="" class="jpg"></li>
+                </ul>
+            </div>
+            <div class="box">
+                <p>服务内容:</p>
+                <ul class="list3">
+                    <li><i class="iconfont icon-shebei_diannaoPC"></i><span>电脑端</span></li>
+                    <li><i class="iconfont icon-shouji1"></i><span>手机端</span></li>
+                    <li><i class="iconfont icon-shebeidiannaoshouji"></i><span>响应式</span></li>
+                </ul>
+            </div>
+            <div class="box1">
+                <p>页面类型:</p>
+                <ul class="list4">
+                    <li class="active4"><span class="sc" >商城类型</span></li>
+                    <li><span>官网类型</span></li>
+                    <li><span>后台类型</span></li>
+                    <li><span>活动类型</span></li>
+                    <li><span>其他类型</span></li>
+                </ul>
+            </div>
+            <div class="box2">
+                <p>页面板式:</p>
+                <ul class="list5">
+                    <li><i class="iconfont icon-iLinkapp-"></i><span>无侧边栏</span></li>
+                    <li><i class="iconfont icon-cebianlan"></i><span>右侧边栏</span></li>
+                </ul>
+            </div>
+            <div class="box3">
+                <p>技术要求:</p>
+                <ul class="list6">
+                    <li class="active4"><span class="sc">H5+CSS+DIV+jQuery</span></li>
+                    <li><span>VUE</span></li>
+                    <li><span>React</span></li>
+                    <li><span>AngularJS</span></li>
+                    <li><span>Angular</span></li>
+                    <li><span>微信小程序</span></li>
+                </ul>
+                <div class="X"></div>
+            </div>
+            <button type="button" class="but">下一步</button>
+        </div>
+
+        <div class="lump1-jiaofu">
+            <div class="lump1 result">
+                <!-- <ul class="fiexd">
+                    <li><span class="xd">下单</span></li>
+                    <li><span class="jf">交付</span></li>
+                    <li><span class="jg">价格</span></li>
+                </ul> -->
+                <div class="box">
+                    <ul>
+                        <li><i class="iconfont icon-shebei_diannaoPC"></i><span>电脑端</span></li>
+                        <li><i class="iconfont icon-shouji1"></i><span>手机端</span></li>
+                        <li><i class="iconfont icon-shebeidiannaoshouji"></i><span>响应式</span></li>
+                    </ul>
+                </div>
+                <div class="boxp">
+                    <p>交付标准:</p>
+                    <p>* 交付结果将根据原设计稿的比例自适应主流1366 - 1920分辨率下的显示效果</p>
+                    <p>* 交付结果将兼容浏览器：IE9及以上、360兼容模式、火狐、Chrome、Safair</p>
+                </div>
+                <div class="box1">
+                    <p>页面类型:</p>
+                    <ul class="list8">
+                        <li class="active4"><span class="sc">商城类型</span></li>
+                        <li><span>官网类型</span></li>
+                        <li><span>后台类型</span></li>
+                        <li><span>活动类型</span></li>
+                        <li><span>其他类型</span></li>
+                    </ul>
+                </div>
+                <div class="box2">
+                    <p>页面板式:</p>
+                    <ul class="list7">
+                        <li><i class="iconfont icon-iLinkapp-"></i><span>无侧边栏</span></li>
+                        <li><i class="iconfont icon-cebianlan"></i><span>右侧边栏</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="lump2-jiaoyi">
+            <div class="lump2 result">
+                <!-- <ul class="fiexd">
+                    <li><span class="xd">下单</span></li>
+                    <li><span class="jf">交付</span></li>
+                    <li><span class="jg">价格</span></li>
+                </ul> -->
+                <div class="box9">
+                    <ul>
+                        <li><i class="iconfont icon-119yemianbanshikaifajitai"></i><span>内容页</span>
+                            <p>￥250/页</p>
+                        </li>
+                        <li><i class="iconfont icon-shangpinyemian"></i><span>首页</span>
+                            <p>￥550/页</p>
+                        </li>
+                        <li><i class="iconfont icon-page"></i><span>长页面</span>
+                            <p>￥550/页</p>
+                        </li>
+                    </ul>
+                    <div class="XX"></div>
+                </div>
+                <div class="box">
+                    <p>服务内容:</p>
+                    <ul class="list1">
+                        <li><i class="iconfont icon-shebei_diannaoPC"></i><span>电脑端</span></li>
+                        <li><i class="iconfont icon-shouji1"></i><span>手机端</span></li>
+                        <li><i class="iconfont icon-shebeidiannaoshouji"></i><span>响应式</span></li>
+                    </ul>
+                </div>
+                <!-- 注意事项 -->
+                <div class="box8">
+                    <ul>
+                        <li>
+                            <div class="fwbz">服务标准</div>
+                            <div class="character">
+                                <p>仅按设计稿及所选技术还原开发成Web页面</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="fwbz">注意事项</div>
+                            <div class="character">
+                                <p>请在使用本服务前仔细检查设计稿是否标注（尺寸、分辨率、是否有遗漏等细节）</p>
+                                <p>本服务仅还原设计稿，因设计稿不标准、有遗漏等导致的页面问题本平台概不负责</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="fwbz">交互标准</div>
+                            <div class="character">
+                                <p>正常交付</p>
+                                <p class="time">24小时</p>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="fwbz">维保服务</div>
+                            <div class="character">
+                                <p>第一版交付后3天内为维保期</p>
+                                <p>维保期内BUG免费改，BUG外的修改需支付费用</p>
+                                <p>维保期过后系统将自动结束任务</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- 尾部 -->
+        <div class="bottom">
+            <div class="bottom-center">
+                <span class="Sleft">© Copyright 2016 空心科技 鄂ICP备 16003656 号 </span>
+                <span class="Sright"><img src="./img/beian.png" alt="">鄂公网安备 42018502000528 号</span>
+            </div>
+        </div>
+    </div>
+    <script src="./js/xxka11.js"></script>
+</body>
+</html>

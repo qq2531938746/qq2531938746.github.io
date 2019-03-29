@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="69px" height="54px" viewBox="0 0 69 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>自适应</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="常规发布任务" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="自适应">
+            <g id="Group-6">
+                <path d="M52.5454252,40.5 C52.5453219,40.0436057 52.5453176,40.0208705 52.5451854,39.3130409 C52.5447876,37.0396994 52.5446777,34.6783185 52.5450314,32.4717057 C52.545151,31.7258618 52.5453225,31.015097 52.5455497,30.3446219 C52.5455497,28.6004945 53.4550716,27.5034877 55.2444021,27.5034877 C55.9107873,27.5033908 55.9107873,27.5033908 56.6129136,27.5033487 C57.4461798,27.5033117 58.0724526,27.5033317 59.2107916,27.5034102 C59.3267387,27.5034208 59.4215473,27.5034295 59.5,27.5034367 L59.5,2.99686373 C59.5,1.62346215 58.3791907,0.5 57.0040626,0.5 L2.99593743,0.5 C1.61502854,0.5 0.5,1.61691132 0.5,2.99821673 L0.5,38.0017833 C0.5,39.3822484 1.62027791,40.5 3.003945,40.5 L52.5454252,40.5 Z" id="Rectangle-5" stroke="#3CC8B4"></path>
+                <circle id="Oval-6" stroke="#3CC8B4" cx="3.00222387" cy="3.00222387" r="1.00074129"></circle>
+                <circle id="Oval-7" stroke="#3CC8B4" cx="7.00518903" cy="3.00222387" r="1.00074129"></circle>
+                <circle id="Oval-8" stroke="#3CC8B4" cx="11.0081542" cy="3.00222387" r="1.00074129"></circle>
+                <rect id="Rectangle-12" fill="#3CC8B4" x="29" y="40" width="1" height="14"></rect>
+                <rect id="Rectangle-11" fill="#3CC8B4" x="21" y="53" width="17" height="1"></rect>
+            </g>
+            <g id="Group-5" transform="translate(52.000000, 27.000000)" stroke="#3CC8B4">
+                <rect id="Rectangle-1" x="0.538547072" y="0.5" width="15" height="26" rx="3"></rect>
+                <circle id="Oval-1" cx="8.64492216" cy="23.8369162" r="1.00074129"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

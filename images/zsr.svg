@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="7px" height="10px" viewBox="0 0 7 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>三条线右</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="规则介绍" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-499.000000, -375.000000)">
+        <g id="Group-6" fill="#9098B8">
+            <g id="Group-8" transform="translate(270.000000, 309.000000)">
+                <g id="Group-7" transform="translate(110.000000, 41.000000)">
+                    <path d="M119,25 L120,25 L120,35 L119,35 L119,25 Z M122,27 L123,27 L123,33 L122,33 L122,27 Z M125,29 L126,29 L126,31 L125,31 L125,29 Z" id="三条线右"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

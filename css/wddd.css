@@ -1,0 +1,745 @@
+body,img,h1,h2,h3,h4,h5,h6,ul,li{
+    margin: 0px;
+    padding: 0px;
+}
+ul{
+    list-style: none;
+}
+@media screen and (min-width:1200px){
+    body{
+        background-color: #f2f2f2;
+    }
+    .content{    
+        width: 100%;
+        height: 50rem;
+    }    
+    .content>.header_nav{
+        /* 导航 */
+        z-index: 999;
+    }
+    /* banner */
+    .content>.banner{
+        width: 100%;
+        background: url(../img/scsjgbg.jpg) no-repeat center;
+        background-size:100% 100%;   
+        height: 20rem;
+        /* margin-top: 5rem; */
+        padding-bottom: 7rem;
+    }
+    .banner>.banner-relative{
+        width: 75rem;
+        position: relative;
+        /* border: 1px solid red; */
+        margin: 0 auto;
+    }   
+    .banner-relative>.banner-absolute{
+        position: absolute;
+        top: 10%;
+        left: 0%; 
+    }
+    .banner-absolute>h1{
+        padding-top: 10rem;
+        width: 100%;
+        font-weight: 400;
+        font-size:2.666rem;
+        color: #f2f2f2;
+        padding-bottom: 2rem;
+    }
+    .banner-absolute>span{
+        border: 1px solid #f2f2f2;
+        width: 6rem;
+        display: inline-block;
+        border-radius: 5rem;
+        padding: .333rem;
+        text-align:center;
+        color: #f2f2f2;
+        font-size: 1rem;
+    }
+    .banner-absolute>img{
+        background-image: 100% auto;
+        padding: 0 .333rem;
+        vertical-align: middle;
+    }
+    /* 表格部分下单 */
+    .lump{
+        /* display: none; */
+        position: relative;
+        z-index: 99;
+        left: 0;
+        top: -3%;
+        z-index: 99;
+        border-radius: .333rem;
+        width: 56.25rem;
+        height: 60rem;
+        background-color: white;
+        margin: 0 auto;
+    }
+    /* fiexd */
+    .banner-relative>.fiexd{
+        position: absolute;
+        left: 5rem;
+        top: 28rem;
+        width: 4.444rem;
+        height: 7.333rem;
+        background-color: #dfe7f1;
+        border-radius: .666rem 0 0 .666rem;
+    }
+    .banner-relative>.fiexd>li{
+        color: #333;
+        text-align: center;
+        font-size: .777rem;
+    }
+    .banner-relative>.fiexd>li>span{
+        border-bottom: 1px solid #ccc;
+        display: inline-block;
+        padding: .666rem .666rem;
+    }
+    .banner-relative>.fiexd>li>.jg{
+        border-bottom: 0px solid #999;
+        color: #999;
+        cursor: pointer;
+
+    }
+    .banner-relative>.fiexd>li>.jf{
+        color: #999;
+        cursor: pointer;
+        
+    }
+    .banner-relative>.fiexd>li>#xd{
+        cursor: pointer;
+    }
+    /* 白色块 */
+    .lump>.box{
+        padding: 1rem 8rem;
+        box-sizing: border-box;
+    }
+    .lump>.box1{
+        padding: 1rem 8rem;
+        box-sizing: border-box;
+    }
+    .lump>.box2{
+        padding: 1rem 8rem;
+        box-sizing: border-box;
+    }
+    .lump>.box3{
+        padding: 1rem 8rem;
+        box-sizing: border-box;
+    }
+    /* 服务内退 */
+    /* 设计稿 */
+    .lump>.box>ul{
+        display: flex;
+        justify-content: space-between;
+    }
+    .lump>.box>p{
+        color: #666;
+    }
+    .lump>.box>p>i{
+        font-size: 2rem;
+        color: aquamarine;
+        vertical-align: -.4rem;
+        padding-left: .333rem;
+        cursor: pointer;
+    }
+    .lump>.box>ul>li{
+        width: 12.333rem;
+        height: 6rem;
+        border: 1px solid #ccc;
+        border-radius:.333rem;
+    }
+    .lump>.box>ul>li>.ps{
+        padding-top: 1rem;
+        display: block;
+        margin: 0 auto;
+        width: 30%;
+        cursor: pointer;
+    }
+    .lump>.box>ul>li>.sketch{
+        padding-top: 1rem;
+        display: block;
+        margin: 0 auto;
+        width: 24%;
+        cursor: pointer;
+    }
+    .lump>.box>ul>li>.jpg{
+        padding-top: 1rem;
+        display: block;
+        margin: 0 auto;
+        width: 38%;
+        cursor: pointer;
+
+    }
+    .lump>.box>ul>li>i{
+        color: #999;
+        padding-left: 2rem;
+        font-size: 3.666rem;
+        box-sizing: border-box;
+        margin-top:5rem;
+        cursor: pointer;
+
+    }
+    .lump>.box>ul>li>span{
+        padding-left: 2rem;
+        line-height: 6rem;
+        vertical-align: top;
+        color: #333;
+    }    
+
+    /* 页面类型 */
+
+    .box1>ul{
+        justify-content: space-between;
+        display: flex;
+    }
+    .box1>p{
+        color: #666;
+    }
+    .box1>ul>li>span{
+        border: 1px solid #ccc;
+        width: 5rem;
+        display: inline-block;
+        border-radius: 5rem;
+        padding: .333rem .888rem;
+        text-align:center;
+        color: #666;
+        font-size: .888rem;
+        cursor: pointer;
+
+    }
+    .box1>ul>li>.sc{
+        /* background-color: #01BFAD; */
+        color: white;
+        /* border: 0px; */
+    }
+/* 板式 */
+    .box2>p{
+        color: #666;
+    }
+    .box2>ul{
+        display: flex;
+        justify-content: space-between;
+    }
+    .box2>ul>li{
+        width: 19rem;
+        height: 5rem;
+        border: 1px solid #ccc;
+        border-radius: .333rem;
+    }
+    .box2>ul>li>span{
+        padding-left: 3rem;
+        vertical-align: top;
+        line-height: 5rem;
+        color: #333;
+    }
+    .box2>ul>li>i{
+        font-size: 2rem;
+        padding-left: 4rem;
+        line-height: 4.666rem;
+        color: #999;
+    }
+    /* 技术要求 */
+    .box3>p{
+        color: #666;
+    }
+    .box3>ul>li>span{
+        border: 1px solid #ccc;
+        display: inline-block;
+        border-radius: 5rem;
+        /* margin-top: 1rem; */
+        padding: .222rem .888rem;
+        text-align:center;
+        color: #666;
+        font-size: .666rem;
+        cursor: pointer;
+        float: left;
+        margin-right:1rem;
+    }
+    .X{
+        margin-top: 8rem;
+        width:100%;
+        height: .1rem;
+        background-color: #ccc;
+    }
+    .but{
+        background-color: #ccc;
+        width:6rem;
+        height:2rem;
+        border: 0px;
+        margin: 0 auto;
+        color: white;
+        margin-top: 1rem;
+        display: block;
+        cursor: pointer;
+    }
+    .but:hover{
+        transform: scale(1.5);
+        background-color: #727d9c;
+    }
+    /* 尾部 */
+    .bottom{
+        width: 100%;
+        height:5rem;
+        background-color: black;
+        color: white;
+    }
+    .bottom-center{
+        width: 56.25rem;
+        line-height: 5rem;
+        margin: 0 auto;
+        font-size: 1rem;
+        color: #999;
+    }
+    .bottom-center>.Sright{
+        float: right;
+    }
+    .bottom-center>.Sright>img{
+        width: 1rem;
+        vertical-align: middle;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* 交付 */
+
+
+    /* 表格部分下单 */
+    .lump1-jiaofu{
+
+    }
+    /* 白色块 */
+    .lump1>.box{
+        padding: 1rem 8rem;
+        box-sizing: border-box;
+    }
+    .lump1>.boxp{
+        padding: 0rem 8rem;
+        box-sizing: border-box;
+    }
+    .lump1>.box1{
+        padding: 1rem 8rem;
+        box-sizing: border-box;
+    }
+    .lump1>.box2{
+        padding: 1rem 8rem;
+        box-sizing: border-box;
+    }
+    .lump1>.box3{
+        padding: 1rem 8rem;
+        box-sizing: border-box;
+    }
+    .lump1-jiaofu>.lump1{
+        display: none;
+        position: relative;
+        z-index: 99;
+        left: 0;
+        top: -1.888rem;
+        border-radius: .333rem;
+        width: 56.25rem;
+        height: 36rem;
+        background-color: white;
+        margin: 0 auto;
+        margin-bottom: 4rem;
+    }
+    /* fiexd */
+    .lump1>.fiexd{
+        position: absolute;
+        left: -5rem;
+        top: 3rem;
+        width: 5rem;
+        height: 7.333rem;
+        background-color: #dfe7f1;
+        border-radius: .666rem 0 0 .666rem;
+    }
+    .lump1>.fiexd>li{
+        color: #333;
+        text-align: center;
+        font-size: .777rem;
+    }
+    .lump1>.fiexd>li>span{
+        border-bottom: 1px solid #ccc;
+        display: inline-block;
+        padding: .666rem .666rem;
+    }
+    .lump1>.fiexd>li>.jg{
+        border-bottom: 0px solid #999;
+        color: #999;
+        cursor: pointer;
+
+    }
+    .lump1>.fiexd>li>.jf{
+        color: #999;
+        cursor: pointer;
+        
+    }
+    .lump1>.fiexd>li>#xd{
+        cursor: pointer;
+    }
+    /* 服务内退 */
+    /* 设计稿 */
+    .lump1>.box>ul{
+        margin-top: 2rem;
+        display: flex;
+        justify-content: space-between;
+    }
+    .lump1>.box>p{
+        color: #666;
+    }
+    .lump1>.box>p>i{
+        font-size: 2rem;
+        color: aquamarine;
+        vertical-align: -.4rem;
+        padding-left: .333rem;
+        cursor: pointer;
+    }
+    .lump1>.box>ul>li{
+        width: 12.333rem;
+        height: 6rem;
+        border-radius:.333rem;
+        border: 1px solid #ccc;
+    }
+    .lump1>.box>ul>li:nth-child(1){
+        border: 1px solid #01DFAB;
+    }
+    .lump1>.box>ul>li>.ps{
+        padding-top: 1rem;
+        display: block;
+        margin: 0 auto;
+        width: 30%;
+        cursor: pointer;
+    }
+    .lump1>.box>ul>li>.sketch{
+        padding-top: 1rem;
+        display: block;
+        margin: 0 auto;
+        width: 24%;
+        cursor: pointer;
+
+    }
+    .lump1>.box>ul>li>.jpg{
+        padding-top: 1rem;
+        display: block;
+        margin: 0 auto;
+        width: 38%;
+        cursor: pointer;
+
+    }
+    .lump1>.box>ul>li>i{
+        color: #999;
+        padding-left: 2rem;
+        font-size: 3.666rem;
+        box-sizing: border-box;
+        margin-top:5rem;
+        cursor: pointer;
+    }
+    .lump1>.box>ul>li>.icon-shebei_diannaoPC{
+        color:  #01DFAB;
+    }
+    .lump1>.box>ul>li>span{
+        padding-left: 2rem;
+        line-height: 6rem;
+        vertical-align: top;
+        color: #333;
+    }    
+    /* 交付标准 */
+    .boxp p{
+        color: #ccc;
+        font-size: .666rem;
+    }
+    /* .boxp>p:nth-child(1){
+        color: #666;
+    } */
+    /* 页面类型 */
+
+    .box1>ul{
+        justify-content: space-between;
+        display: flex;
+    }
+    .box1>p{
+        color: #666;
+    }
+    .box1>ul>li>span{
+        border: 1px solid #ccc;
+        width: 5rem;
+        display: inline-block;
+        border-radius: 5rem;
+        padding: .333rem .888rem;
+        text-align:center;
+        color: #666;
+        font-size: .888rem;
+        cursor: pointer;
+
+    }
+    .box1>ul>li>.sc{
+        /* background-color: #01BFAD;
+        color: white;
+        border: 0px; */
+    }
+/* 板式 */
+    .box2>p{
+        color: #666;
+    }
+    .box2>ul{
+        display: flex;
+        justify-content: space-between;
+    }
+    .box2>ul>li{
+        width: 19rem;
+        height: 5rem;
+        border: 1px solid #ccc;
+        border-radius: .333rem;
+    }
+    .box2>ul>li>span{
+        padding-left: 3rem;
+        vertical-align: top;
+        line-height: 5rem;
+        color: #333;
+    }
+    .box2>ul>li>i{
+        font-size: 2rem;
+        padding-left: 4rem;
+        line-height: 4.666rem;
+        color: #999;
+    }
+
+    .active4{
+        background-color:#01BFAD;
+        border-radius: 15px;
+    }
+
+
+
+
+    /* 交付 */
+
+
+    /* 表格部分下单 */
+    .lump2-jiaofu{
+
+    }
+    /* 白色块 */
+    .lump2>.box{
+        padding: 1rem 8rem;
+        box-sizing: border-box;
+    }
+    .lump2>.box9{
+        padding: 1rem 8rem;
+        box-sizing: border-box;
+    }
+    .lump2-jiaoyi>.lump2{
+        display: none;
+        position: relative;
+        z-index: 99;
+        left: 0;
+        top: -1.888rem;
+        border-radius: .333rem;
+        width: 56.25rem;
+        height: 41rem;
+        background-color: white;
+        margin: 0 auto;
+    }
+    /* fiexd */
+    .lump2>.fiexd{
+        position: absolute;
+        left: -5rem;
+        top: 3rem;
+        width: 5rem;
+        height: 7.333rem;
+        background-color: #dfe7f1;
+        border-radius: .666rem 0 0 .666rem;
+    }
+    .lump2>.fiexd>li{
+        color: #333;
+        text-align: center;
+        font-size: .777rem;
+    }
+    .lump2>.fiexd>li>span{
+        border-bottom: 1px solid #ccc;
+        display: inline-block;
+        padding: .666rem .666rem;
+    }
+    .lump2>.fiexd>li>.jg{
+        border-bottom: 0px solid #999;
+        color: #999;
+        cursor: pointer;
+
+    }
+    .lump2>.fiexd>li>.jf{
+        color: #999;
+        cursor: pointer;
+        
+    }
+    .lump2>.fiexd>li>#xd{
+        cursor: pointer;
+    }
+    /* 板式 */
+    .box9>p{
+        color: #666;
+    }
+    .box9>ul{
+        display: flex;
+        justify-content: space-between;
+    }
+    .box9>ul>li{
+        margin-top: 2.66rem;
+        width: 12.555rem;
+        height: 5rem;
+        border: 1px solid #ccc;
+        border-radius: .111rem;
+    }
+    .box9>ul>li:nth-child(1):hover{
+        border: 1px solid #01BFAD;
+    }
+    .box9>ul>li:nth-child(2):hover{
+        border: 1px solid #01BFAD;
+    }
+    .box9>ul>li:nth-child(3):hover{
+        border: 1px solid #01BFAD;
+    }
+    .box9>ul>li>span{
+        padding-left: 1rem;
+        vertical-align: top;
+        line-height: 3.444rem;
+        color: #333;
+    }
+    .box9>ul>li>i{
+        font-size: 1.666rem;
+        padding-left: 3.666rem;
+        line-height: 3rem;
+        color: #000;
+    }
+    .box9>ul>li>p{
+        margin-top: -.222rem;
+        text-align: center;
+        color: #666;
+        font-size: .666rem;
+    }
+    /* 支付标准 */
+    .lump2>.box>ul{
+        margin-top: 2rem;
+        display: flex;
+        justify-content: space-between;
+    }
+    .lump2>.box>p{
+        color: #666;
+    }
+    .XX{
+        width: 100%;
+        margin-top: 1rem;
+        height: 1px;
+        border: 0px;
+        background-color: #f2f2f2;
+    }
+    .lump2>.box>p>i{
+        font-size: 2rem;
+        color: aquamarine;
+        vertical-align: -.4rem;
+        padding-left: .333rem;
+        cursor: pointer;
+    }
+    .lump2>.box>ul>li{
+        width: 12.333rem;
+        height: 6rem;
+        border-radius:.333rem;
+        border: 1px solid #ccc;
+    }
+    .lump2>.box>ul>li:nth-child(1){
+        border: 1px solid #01DFAB;
+    }
+    .lump2>.box>ul>li>.ps{
+        padding-top: 1rem;
+        display: block;
+        margin: 0 auto;
+        width: 30%;
+        cursor: pointer;
+    }
+    .lump2>.box>ul>li>.sketch{
+        padding-top: 1rem;
+        display: block;
+        margin: 0 auto;
+        width: 24%;
+        cursor: pointer;
+
+    }
+    .lump2>.box>ul>li>.jpg{
+        padding-top: 1rem;
+        display: block;
+        margin: 0 auto;
+        width: 38%;
+        cursor: pointer;
+    }
+    .lump2>.box>ul>li>i{
+        color: #999;
+        padding-left: 2rem;
+        font-size: 3.666rem;
+        box-sizing: border-box;
+        margin-top:5rem;
+        cursor: pointer;
+    }
+    .lump2>.box>ul>li>.icon-shebei_diannaoPC{
+        color:  #01DFAB;
+    }
+    .lump2>.box>ul>li>span{
+        padding-left: 2rem;
+        line-height: 6rem;
+        vertical-align: top;
+        color: #333;
+    }    
+    /* 注意事项 */
+    .box8{
+        padding: 1rem 8rem;
+        box-sizing: border-box;
+    }
+    .box8>ul{
+        justify-content: space-between;
+        display: flex;
+    }
+    .box8>ul>li{
+        width: 9.444rem;
+        height: 14rem;
+        border-radius: .222rem;
+        border: 1px solid #ccc;
+    }
+    .box8>ul>li>.fwbz{
+        width: 100%;
+        height: 3rem;
+        text-align: center;
+        line-height: 3rem;
+        font-size: .555rem;
+        color:white;
+        background-color: #727D9C;
+    }
+    .box8>ul>li>.character{
+        font-size: .777rem;
+        padding: 0rem 1rem;
+        color: #727D9C;
+        text-align: center;
+    }
+    .time{
+        font-size: 1.111rem;
+        color: #01DFAB;
+    }
+@media screen and (min-width:375px) and (max-width:1200px){
+    
+    }
+}
