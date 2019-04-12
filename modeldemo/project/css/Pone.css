@@ -1,0 +1,87 @@
+body,img,h1,h2,h3,h4,h5,h6,ul,li{
+    margin: 0px;
+    padding: 0px;
+}
+ul{
+    list-style: none;
+	
+}
+@media screen and (min-width:375px){
+	.wrap{
+		width: 100%;
+		height: 50rem;
+		background: url(../img/a.jpg) no-repeat 50% 50%;
+	}
+	/* 导航 */
+	.nav{
+		width: 100%;
+		height: 3rem;
+		background-color: #293038;
+		color: white;
+		position: relative;
+	}
+	.nav>.lt{
+		width: 10%;
+		height: 3rem;
+		text-align: center;
+		line-height: 3rem;
+		display: inline-block;
+	}
+	.nav>.ROUTES{
+		display: inline-block;
+		position: absolute;
+		left: 40%;
+		line-height: 3rem;
+	}
+	/* 下定位 */
+	.zindex{
+		width: 100%;
+	}
+	.zindex>.list1{
+		display: none;
+		background-color:#293038;
+		border: 1px solid #666;
+	}
+	.zindex>.list1>li{
+		width:100%;
+		height: 7.88rem;
+		/* background-color: red; */
+	}
+	.zindex>.list1>li>span{
+		display: inline-block;
+		width: 49.39%;
+		height: 98%;
+		background-color: #293038;
+		border: 1px solid #666;
+		border-right: 0px;
+		border-bottom: 0px;
+		position: relative;
+	}
+	.zindex>.list1>li>span>i{
+		margin: 0 auto;
+		color: #0E9B9F;
+		font-size: 3rem;
+		position: absolute;
+		left: 38%;
+		top: 10%;
+	}
+	.zindex>.list1>li>span>i:hover{
+		animation: rotate 1s;
+	}
+	.zindex>.list1>li>span>p{
+		margin: 0 auto;
+		color: white;
+		font-size: 1.33rem;
+		position: absolute;
+		left: 37%;
+		top: 64%;
+	}
+	@keyframes rotate{
+		0%{
+			transform: rotate(180deg);
+		}
+		100%{
+			transform: rotate(360deg);
+		}
+	}
+}

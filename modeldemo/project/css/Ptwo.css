@@ -1,0 +1,119 @@
+body,img,h1,h2,h3,h4,h5,h6,ul,li{
+    margin: 0px;
+    padding: 0px;
+}
+ul{
+    list-style: none;
+	
+}
+@media screen and (min-width:375px){
+	.wrap{
+        width: 100%;
+        height: 50rem;
+        background: url(../img/a.jpg) no-repeat 50% 50%;
+        background-size: 100% 110%;
+    }
+	.wrap>.nav{
+        width: 100%;
+        height: 5rem;
+        background-color: white;
+        position: relative;
+        border-bottom: 1px solid #ccc;
+        box-shadow: 5px 0px 5px #ccc;
+    }
+	.wrap>.nav>.character{
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        line-height: 5rem;
+    }
+	.wrap>.nav>.right{
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        right: 2rem;
+        line-height: 5rem;
+    }
+    .center{
+        width: 100%;
+        height: 5rem;
+        background-color: white;
+        text-align: center;
+        line-height: 5rem;
+    }
+    /* 侧边栏 */
+    .wrap-left{
+        width: 80%;
+        height: 50rem;
+        background-color: #8080ff;
+        box-shadow: 0px 0px 80rem #8080ff;
+        opacity: 1;
+        position: absolute;
+        top: 0;
+        z-index: 99;
+    }
+    .wrap-left>.left-nav{
+        width: 100%;
+        height: 10rem;
+        background-color: white;
+        opacity: 0.7;
+        box-shadow: -3px 0px 5px #000;
+        position: relative;
+    }
+    .left-nav>.pic{
+        width: 90%;
+        padding-left: 10%;
+        position: absolute;
+        top: 2.555rem;  
+        left: 0;      
+    }
+    .left-nav>.pic>img{
+        width: 5rem;
+        height: 5rem;
+        border-radius: 50%;
+    }
+    .pic>span{
+        position: absolute;
+        top: 0;
+        left: 8.888rem;
+    }
+    .left-center{
+        width: 100%;
+    }
+    .left-center>ul{
+        width: 100%;
+        padding: 2rem 0;
+    }
+    .left-center>ul>li{
+        width: 100%;
+        background-color: #8080ff;
+        padding: 2rem 0;
+        font-size: 2rem;
+        color: #f2f2f2;
+    }
+    .left-center>ul>li>i{
+        padding-left: 20%;
+        font-size: 2rem;
+        color: #f2f2f2;
+    }
+    .left-center>ul>li>span{
+        padding-left: 1.22rem
+    }
+    .left-bottom{
+        width: 100%;
+        height:8.89rem;
+        background-color: #D9D9FF;
+        box-shadow: 0px -2px 5px #333;
+        font-size: 3rem;
+        line-height: 8rem;
+        text-align: center;
+    }
+    .left-bottom>.icon>i{
+        font-size: 5rem;
+        color: #000;
+    }
+    .left-bottom>.icon>span{
+        padding-left: 1.22rem
+    }
+
+}
