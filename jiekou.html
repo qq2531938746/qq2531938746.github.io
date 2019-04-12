@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>jiekou</title>
+	<link rel="stylesheet" type="text/css" href="css/jiekou.css">
+	<script type="text/javascript" src="js/jquery-1.12.4.js"></script>
+	<script type="text/javascript" src="js/jiekou.js"></script>
+</head>
+<body>
+	<div class="header_nav">
+        <div class="logo"><a href="home.html"><img src="img/index_logo_1.png"></a></div>
+        <div class="task_menu">
+            <a href="order.html"><img src="https://www.kxhtml.com/console/images/icon_add.svg" alt=""> 我要下单</a>
+        </div>
+        <div class="header_right">
+            <ul>                
+                <li><a href="makemoney.html">赚钱神器</a></li>
+                <li><a href="register.html">注册</a></li>
+                <li class="register"><a href="enter.html">登录</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+
+
+
+	<div class="backg">
+		<div class="backg-title">
+			<h2>提供API接口，上传静态页面，交付您代码</h2>
+			<div class="block">下单</div>
+			<div class="dd"><img src="img/dot2.png"></div>
+			<div class="block">&lt; 48小时交付</div>
+			<div class="dd"><img src="img/dot2.png"></div>
+			<div class="block">3天质保</div>
+			<div class="dd"><img src="img/dot2.png"></div>
+			<div class="block">开发票</div>
+		</div>
+	</div>
+	<div class="content">
+			<div class="content-nei">
+				<div class="up-main">
+					<ul class="up-side">
+						<li class="active" id="box1">下单</li>
+						<li class="" id="box2">规则</li>
+					</ul>
+					<div class="up-main-content">
+					<div class="upmainBox1" >
+						<div class="upmainBox1-content">
+								<div class="Interface-docu">
+									<h2>在线接口文档:</h2>
+									<div class="up-tips">
+										<span><img src="img/task_zhi.svg" alt=""></span>
+									</div>
+								</div>
+								<input type="text" placeholder="http://" id="apiurl">
+								<br>
+								<ul class="mp">
+									<li>第三方在线API参考:
+										<a href="http://www.sosoapi.com/" target="_bank" title="sosoapi">http://www.sosoapi.com/</a>或
+										<a href="http://www.easy-mock.com">http://www.easy-mock.com</a>
+									</li>
+									<li>API文档Demo案列:
+										<a href="http://www.sosoapi.com/pass/apidoc/demo.htm" target="_bank" title="sosoapi">
+								         http://www.sosoapi.com/pass/apidoc/demo.htm</a>
+										
+									</li>
+								</ul>
+								<div class="Interface-docu">
+									<h2>上传项目文件：</h2>
+								</div>
+								<div class="shangchuang">
+									<input type="text" name="" placeholder="文件名称.zip" id="pagefileName">
+									<a href="javascript:;" class="page-upload-btn">上传静态页面</a>
+								</div>
+								<div class="Interface-docu">
+									<h2>开发内容：</h2>
+								</div>
+								<div class="Develop-content">
+									<div class="equipment">
+										<span></span>
+										<h3>电脑端
+											<br>
+											<label class="pricesInfo">¥300 /页</label>
+										</h3>
+									</div>
+									<div class="equipment">
+										<span></span>
+										<h3>手机端
+											<br>
+											<label class="pricesInfo">¥200 /页</label>
+										</h3>
+									</div>
+								</div>
+								<div class="Interface-docu">
+									<h2>上传原型：</h2>
+								</div>
+								<div class="fileinfo">
+									<div id="fileContainer"> 
+										<p class="p1"><img src="img/shangchuang.png" alt=""></p>
+										<p class="p2">必须上传【项目原型】或者【接口逻辑说明】文档等</p>
+									</div>
+								</div>
+								<div class="Interface-docu">
+									<h2>技术要求：</h2>
+								</div>
+								<div class="up-art">
+									<span data="59">Js+jQuery</span>
+									<span data="77">VUE</span>
+									<span data="79">React.js</span>
+									<span data="80">Angular.js</span>
+								</div>
+								<a href="javascript:;" class="hvr-radial-out">下一步</a>
+						</div>
+					</div>
+					<div class="upmainBox2" style="display: none">
+						<div class="flex">
+							<div class="rule-list">
+								<div class="top-title">
+									<span><img src="img/zsl.svg" alt=""></span>
+									<h2>服务标准</h2>
+									<span><img src="img/zsr.svg"></span>
+								</div>
+								<div class="bom">
+									<h2>仅按提供的API接口和静态页面来对接</h2>
+								</div>
+							</div>
+							<div class="rule-list">
+								<div class="top-title">
+									<span><img src="img/zsl.svg" alt=""></span>
+									<h2>服务标准</h2>
+									<span><img src="img/zsr.svg"></span>
+								</div>
+								<div class="bom">
+									<h2>接口不通的，我们将不予开发</h2>
+									<h2>没有详细描述的，我们将不予开发</h2>
+								</div>
+							</div>
+							<div class="rule-list">
+								<div class="top-title">
+									<span><img src="img/zsl.svg" alt=""></span>
+									<h2>服务标准</h2>
+									<span><img src="img/zsr.svg"></span>
+								</div>
+								<div class="bom">
+									<div>
+										<h1>正常交付</h1>
+										<span>48小时</span>
+									</div>
+									<div>
+										<h1>加急交付</h1>
+										<span>24小时</span>
+										<h1>（需支付加急费）</h1>
+									</div>
+								</div>
+							</div>
+							<div class="rule-list">
+								<div class="top-title">
+									<span><img src="img/zsl.svg" alt=""></span>
+									<h2>服务标准</h2>
+									<span><img src="img/zsr.svg"></span>
+								</div>
+								<div class="bom">
+									<h2>第一版交付后3天内为维保期</h2>
+									<h2>维保期内BUG免费改，BUG外的修改需支付费用</h2>
+									<h2>维保期过后系统将自动结束任务</h2>
+								</div>
+							</div>
+						</div> 
+					</div>
+				</div> 
+				</div>
+
+			</div>
+		</div>
+
+
+</body>
+</html>

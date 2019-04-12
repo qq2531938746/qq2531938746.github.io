@@ -1,0 +1,10 @@
+$(document).ready(function(){
+  $("#box1").click(function(){
+    $(".upmainBox1").show();
+    $(".upmainBox2").hide();
+  });
+  $("#box2").click(function(){
+    $(".upmainBox1").hide();
+    $(".upmainBox2").show();
+  });
+});

@@ -1,0 +1,15 @@
+$(document).ready(function(){
+	$("#backimg").click(function(){
+		$("#slidenav").animate({width:'7.5rem'})
+	})
+})
+$(document).ready(function(){
+	$("#closebtn").click(function(){
+		$("#slidenav").animate({width:'0'})
+	})
+})
+$(document).ready(function(){
+	$("#menudown").click(function(){
+		$("#comeon").slideToggle('slow')
+	})
+})

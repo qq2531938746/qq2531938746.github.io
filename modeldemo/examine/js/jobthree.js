@@ -1,0 +1,10 @@
+$(document).ready(function(){
+	$("#navleft").click(function(){
+		$('#topnav').animate({top:'11rem'},800);		
+		$("#hideshow").slideDown(800);
+	})
+	$("#navright").click(function(){		
+		$("#hideshow").slideUp(800);
+		$("#topnav").animate({top:'0'},800);
+	})
+})

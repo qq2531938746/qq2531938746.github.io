@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>项目列表</title>
+    <link rel="stylesheet" href="css/register.css">
+    <link rel="stylesheet" href="layui/css/layui.css">
+    <script src="layui/layui.js"></script>
+</head>
+
+<body>
+    <!-- 顶部导航 -->
+    <div class="header_nav">
+        <div class="logo"><a href="home.html"><img src="img/index_logo_1.png"></a></div>
+        <div class="task_menu">
+            <a href="order.html"><img src="https://www.kxhtml.com/console/images/icon_add.svg" alt=""> 我要下单</a>
+        </div>
+        <div class="header_right">
+            <ul>
+                <li><a href="makemoney.html">赚钱神器</a></li>
+                <li><a href="register.html">注册</a></li>
+                <li class="register"><a href="enter.html">登录</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- 注册页面 -->
+    <div class="content">
+
+        <div class="layui-tab con_tab layui-tab-brief">
+            <ul class="layui-tab-title con_tab">
+                <li class="layui-this content_left">工作室用户注册</li>
+                <li class="content_right">企业用户注册</li>
+            </ul>
+            <div class="layui-tab-content">
+                <div class="layui-tab-item layui-show">
+                    <form action="" class="layui-form">
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">工作室账号</label>
+                            <div class="layui-input-block">
+                                <input type="text" required lay-verify="required" placeholder="请输入工作室账号"
+                                    class="layui-input">
+                            </div>
+                        </div>
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">密码</label>
+                            <div class="layui-input-inline">
+                                <input type="password" name="password" required lay-verify="required"
+                                    placeholder="请输入密码" autocomplete="off" class="layui-input">
+                            </div>
+                        </div>
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">确认密码</label>
+                            <div class="layui-input-inline">
+                                <input type="password" name="password" required lay-verify="required"
+                                    placeholder="请再次输入密码" autocomplete="off" class="layui-input">
+                            </div>
+                        </div>
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">邮箱</label>
+                            <div class="layui-input-block">
+                                <input type="text" required lay-verify="required" placeholder="请输入邮箱"
+                                    class="layui-input">
+                            </div>
+                        </div>
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">手机号码</label>
+                            <div class="layui-input-block">
+                                <input type="text" required lay-verify="required" placeholder="请输入手机号码"
+                                    class="layui-input">
+                            </div>
+                        </div>
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">银行账号</label>
+                            <div class="layui-input-block">
+                                <input type="text" required lay-verify="required" placeholder="请输入银行账号"
+                                    class="layui-input">
+                            </div>
+                        </div>
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">银行名称</label>
+                            <div class="layui-input-block">
+                                <select name="city" lay-verify="required">
+                                    <option value="">请选择银行</option>
+                                    <option value="0">中国银行</option>
+                                    <option value="1">中国农业银行</option>
+                                    <option value="2">中国建设银行</option>
+                                    <option value="3">中国工商银行</option>
+                                    <option value="4">中国交通银行</option>
+                                    <option value="4">中国人民银行</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="layui-form-item">
+                            <div class="layui-input-block">
+                                <button class="layui-btn" lay-submit lay-filter="formDemo">立即提交</button>
+                                <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="layui-tab-item">
+                    <form action="" class="layui-form">
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">公司名称</label>
+                            <div class="layui-input-block">
+                                <input type="text" required lay-verify="required" placeholder="请输入公司名称"
+                                    class="layui-input">
+                            </div>
+                        </div>
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">密码</label>
+                            <div class="layui-input-inline">
+                                <input type="password" name="password" required lay-verify="required"
+                                    placeholder="请输入密码" autocomplete="off" class="layui-input">
+                            </div>
+                        </div>
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">确认密码</label>
+                            <div class="layui-input-inline">
+                                <input type="password" name="password" required lay-verify="required"
+                                    placeholder="请再次输入密码" autocomplete="off" class="layui-input">
+                            </div>
+                        </div>
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">邮箱</label>
+                            <div class="layui-input-block">
+                                <input type="text" required lay-verify="required" placeholder="请输入邮箱"
+                                    class="layui-input">
+                            </div>
+                        </div>
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">手机号码</label>
+                            <div class="layui-input-block">
+                                <input type="text" required lay-verify="required" placeholder="请输入手机号码"
+                                    class="layui-input">
+                            </div>
+                        </div>
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">银行账号</label>
+                            <div class="layui-input-block">
+                                <input type="text" required lay-verify="required" placeholder="请输入银行账号"
+                                    class="layui-input">
+                            </div>
+                        </div>
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">银行名称</label>
+                            <div class="layui-input-block">
+                                <select name="city" lay-verify="required">
+                                    <option value="">请选择银行</option>
+                                    <option value="0">中国银行</option>
+                                    <option value="1">中国农业银行</option>
+                                    <option value="2">中国建设银行</option>
+                                    <option value="3">中国工商银行</option>
+                                    <option value="4">中国交通银行</option>
+                                    <option value="4">中国人民银行</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="layui-form-item">
+                            <div class="layui-input-block">
+                                <button class="layui-btn" lay-submit lay-filter="formDemo">立即提交</button>
+                                <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+    </div>
+
+    <script>
+        //Demo
+        layui.use('form');
+        layui.use('element');
+    </script>
+</body>
+
+</html>

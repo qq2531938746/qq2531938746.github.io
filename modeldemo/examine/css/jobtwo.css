@@ -1,0 +1,62 @@
+body,html,div,a,i,input,ul,li,ol,h1,h2,h3,h4,h5,h6,img{
+	padding: 0;
+	margin: 0;
+}
+
+.slide-nav{
+	width: 0;
+	height: 100%;
+	background-color: #222B34;
+	position: fixed;
+	top: 0;
+	left: 0;
+	overflow-x: hidden;
+	/*padding: 3rem 0.25rem;*/
+}
+.top-nav{
+	font-size: 0.6rem;
+	color: #999;
+	font-weight: 500;
+	letter-spacing: 0.18rem;
+	padding: 1.2rem 0.25rem;
+	border-bottom: 0.01rem solid #555;
+	position: relative;
+}
+.menu-down{
+	height: 1.5rem;
+	width: 100%;
+	line-height: 1.5rem;
+	font-size: 0.4rem;
+	color: #888;
+	font-weight: 200;
+	padding: 0 0.25rem;
+	border-bottom: 0.01rem solid #555;
+}
+.slide-nav ul{
+	font-size: 0.4rem;
+	color: #888;
+	font-weight: 200;
+	padding: 0.5rem 0.25rem;
+	border-bottom: 0.01rem solid #555;
+}
+.slide-nav .come-on{
+	display: none;
+}
+.slide-nav .come-on li{
+	color: #555;
+	list-style: none;
+	padding: 0.3rem 0.25rem;
+	font-size: 0.4rem;
+	font-weight: 200;
+}
+.font{
+	padding: 0.25rem;
+	color: #167A7E;	
+	position: absolute;
+	left: 1.8%;
+	bottom: 2.8%;
+
+}
+.font i{
+	font-size: 0.5rem;
+}
